@@ -1,0 +1,42 @@
+<%# -*- coding: utf-8 -*-%>
+<% require 'rubygems' # RubyGemsでインストールしたときには記述  %> 
+<% require 'dbi'      # DBIを使う %>
+
+<%# dbhを作成し、データベース'bookinfo_sqlite.db'に接続する %>
+<% dbh = DBI.connect( 'DBI:SQLite3:bookinfo_sqlite.db' ) %>
+
+<%# テーブルから削除対象データを読み込んで表示する %>
+<% row = dbh.select_one("select * from bookinfos where id=\'#{target_id}\'") %>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <link rel="stylesheet" type="text/css" href="default.css">
+  <title>蔵書管理</title>
+</head>
+<body>
+<h1>蔵書管理</h1>
+<h2>蔵書データの削除</h2>
+<p>このデータを削除します｜
+<a href="list.erb">蔵書データの表示</a>｜
+<a href="index.html">メニュー画面に戻る</a></p>
+<hr>
+
+<%# 削除データを表示する アクションはdelete %>
+<form method="post" action="delete">
+<input type="hidden" name="id" value="<%= target_id %>" />
+<table>
+<%# select文の実行結果のidが指定されたデータを取り出し、繰り返し処理する %>
+  <th>項目名</th><th>削除データ</th>
+<%# each_with_nameメソッドで値と項目名を1件分ずつ取り出して表示する %>
+<%   row.each_with_name do |val, name| %>
+  <tr>
+      <td><%= name %></td><td><%= val.to_s %></td>
+      <input type="hidden" name="<%= name %>" value="<%= val %>" />
+  </tr>
+<%   end %>
+</table>
+<input type="submit" value="削除を実行" />
+</form>
+<hr>
+</body>
+</html>
