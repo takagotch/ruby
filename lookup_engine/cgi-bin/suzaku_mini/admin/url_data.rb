@@ -1,0 +1,10 @@
+1,1,http://www.apple.com/jp/,01,アップルコンピュータ,あっぷるこんぴゅーた,,,0
+2,2,http://www.nec.co.jp/,01,ＮＥＣ,えぬいーしー,,,0
+3,3,http://www.epson.jp/,01,セイコーエプソン,せいこーえぷそん,,,0
+4,4,http://www.sony.co.jp/,01,ソニー,そにー,,,0
+5,7,http://www.ibm.com/jp/,01,日本ＩＢＭ,にほんあいびーえむ,,,0
+6,11,http://www.adobe.com/jp/,02,アドビシステムズ,あどびしすてむず,,,0
+7,12,http://www.systemsoft.co.jp/,02,システムソフト,しすてむそふと,,,0
+8,14,http://www.justsystem.co.jp/,02,ジャストシステム,じゃすとしすてむ,,,0
+9,17,http://www.borland.com/jp/,02,ボーランド,ぼーらんど,,,0
+10,18,http://www.forest.impress.co.jp/,02,窓の杜,まどのもり,,,0
