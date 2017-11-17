@@ -1,0 +1,179 @@
+require 'rake/clean'
+require 'yaml'
+
+TXT_DIR = "#{pwd}/meals/"
+OUTPUT_DIR = "#{pwd}/reports/"
+FILE_EXT = '.txt'
+DATE_STR = Time.now.strftime('%Y%m%d')
+OUTPUT_FILE = "report_#{DATE_STR}#{FILE_EXT}"
+
+BACKUP_DIR = "backups"
+
+MEALS = [
+  {
+    :name  => 'breakfast',
+    :label => '朝食'
+  },
+  {
+    :name  => 'lunch',
+    :label => '昼食'
+  },
+  {
+    :name  => 'dinner',
+    :label => '夕食'
+  }
+]
+
+menu = YAML.load_file('data/menu.yml')
+
+CLEAN.include(%w(check daily.txt))
+CLOBBER.include(%w(reports/* A B))
+
+task :default => :daily
+
+desc "一日の食事記録を作成する"
+task :daily => [:check, :report, :done] do
+  p "日次実行"
+end
+
+desc "食事記録ファイルの確認"
+file :check do
+  sh 'touch check' if MEALS.select {|meal|
+    file_name = meal[:name] + FILE_EXT
+    full_path = TXT_DIR + file_name
+
+    (File.exist? full_path).tap {|result|
+      p "#{file_name} " + ((result) ? "OK" : "がありません")
+    }
+  }.length == MEALS.length
+end
+
+desc "calログ"
+file "history" => "daily.log" do
+  p "cal"
+end
+
+rule ".log" => ".txt" do |t|
+  p t.name
+  p t.sources
+  p t.prerequisites.to_s
+end
+
+desc "食事レポート作成"
+task :report => [:check] do
+  date_str = Time.now.strftime('%Y/%m/%d')
+  output_str = "#{date_str}の食事記録\n\n"
+
+  MEALS.each do |meal|
+    file_name = meal[:name] + FILE_EXT
+    full_path = TXT_DIR + file_name
+
+    description = <<DESC
+#{meal[:label]}
+#{File.read(full_path, :encoding => Encoding::UTF_8)}
+DESC
+
+    output_str += description
+  end
+
+  output_file = OUTPUT_FILE
+  File.open(output_file, 'w') {|f|
+    f.write output_str
+  }
+end
+
+directory OUTPUT_DIR
+desc 'レポート作成完了'
+task :done => OUTPUT_DIR do
+  mv OUTPUT_FILE, "#{OUTPUT_DIR}#{OUTPUT_FILE}"
+end
+
+test_dir = OUTPUT_DIR + "test/hoge/fuga"
+directory test_dir
+desc 'ディレクトリタスクテスト'
+task :directory_task_test => test_dir do
+  p "多層に渡るディレクトリを作成します"
+end
+
+directory BACKUP_DIR
+desc "レポートをバックアップする"
+task :backup => BACKUP_DIR do
+  sh "cp reports/* backups/"
+end
+
+desc "create A file"
+file "A" => "B" do
+  sh 'echo "A file" > A && cat B >> A'
+end
+
+rule 'B' do
+  sh 'echo "B file" > B'
+end
+
+desc "今までの食事の名前とカロリー履歴ファイルを作成"
+file "menu_history.yml" => "daily.yml" do |t|
+  sh "cat #{t.prerequisites.join(' ')} >> #{t.name}"
+end
+
+desc "一週間の食事の名前とカロリー履歴ファイルを作成"
+file "weekly_menu_history.yml" => "weekly.yml" do |t|
+  sh "cat #{t.prerequisites.join(' ')} >> #{t.name}"
+end
+
+rule ".yml" => ".log" do |t|
+  data = {}
+  File.open(t.prerequisites[0]).each do |line|
+    array = line.chomp!.split(/,/)
+    data[array[0]] = array[1]
+  end
+
+  File.open(t.name, 'w') {|f|
+    f.write data.to_yaml
+  }
+end
+
+desc 'main_taskの前に実行されるタスク'
+task :task_before do
+  p 'before'
+end
+
+desc 'メインとして実行させるタスク'
+task :main_task do
+  p 'main task'
+end
+
+Rake::Task[:main_task].enhance([:task_before]) do
+  p 'after'
+end
+
+namespace :check do
+  desc 'ログファイルのチェック'
+  task :log do
+  end
+
+  desc 'yamlファイルのチェック'
+  task :yml do
+  end
+end
+
+namespace :make do
+  namespace :report do
+    desc '日次食事レポート作成'
+    task :daily do
+    end
+
+    desc '週次食事レポート作成'
+    task :weekly do
+    end
+  end
+
+  namespace :history do
+    desc 'メニュー履歴作成'
+    task :menu do
+    end
+
+    desc '摂取カロリー履歴作成'
+    task :calorie do
+    end
+  end
+end
