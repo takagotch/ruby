@@ -200,5 +200,6 @@ Websocket-Rails, AnyCable, Faye, Firehose, Slanger, REnderSync
 AppSignal, Codacy, CodeClimate, deppot, Gemnasium, GitHub, GitlabCI, GitLab, Hakiri, HOundCI, HuBoard, InchCi, Nanobox, OctoLinker, Pullreview, SemaphoreCI, SideCI, TravisCI, VexorCI
 #
 AwemoeRuby@LibHunt, GitHubTrending, GreenRubyNews, OpenSourceRails, RubyBookmarks, RubyDaily, RubyFlow, RubyLand, RubyRogues, RubyWeekly, TheRubyToolbox
-
+#
+https://github.com/sindresorhus/awesome
 
