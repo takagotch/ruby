@@ -18,13 +18,13 @@ Danger, Huginn
 ActioncachingforActionPack, Dalli, Garner, IdentityCache, Kashmir, Readthis, RecordCache, redis-store, SecondLevelCache
 # reCAPTCHA
 InvisibleCaptcha, Rakismet, reCAPTCHA, Voight-Kampff
-#
+# TTY, Rake, GLI
 Clamp, Cocaine, Commander, GLI, Main, Rake, Slop, Thor, Trollop, TTY
-#
+# Tmuxinator ,Awesome Print
 AwesomePrint, Betty, colorls, formatador, Paint, Pastel, Ru, Ruby/Progressbar, TablePrint, TerminalTable, Tmuxinator
 # Fog, WSSDKforRuby
 AWSSDKforRuby, browse-everything, Fog
-#
+# ComfortableMexicanSofa
 AlchemyCMS, CamaleonCMS, ComfortableMexicanSofa, LocomotiveCMS, Publify, PushType, Radiant, RefineryCMS, SpinaCMS, Storytime
 # RuboCop, Brakeman, Scientist
 Barkeep, Brakeman, Cane, Coverband, Fasterer, Flay, Flog, Flog, fukuzatsu, MetricFu, Pippi, Pronto, rails_best_practices, Reek, RuboCop, RubyCop, Rubycritic, Scientist, SimpleCov, Traceroute
@@ -48,15 +48,15 @@ BlockchainLite
 Dashing, Dashing-Rails
 # Kiba
 Kiba
-#
+# RailsErd, Chartkick
 Chartkick, GeoPattern, LazyHighCharts, RailRoady, RailsErd, Ruby/GraphViz
-#
+# redis-rb, ruby-pg
 CassandraDriver, DataObjects, mongo-ruby-driver, mysql2, Neography, Redic, redis-rb, ruby-rb, ruby-pg, SQLite3, SQLServer, TinyTDS
-#
+# PgHero, Senic, DatabaseCleaner
 connection_pool, DatabaseCleaner, Foreigner, LargehadronMigrator, LolDBA, Polo, PgHero, RailsDB, Scenic, SchemaPlus, Seedbank, Seeddump, SeedFu, Upsert, SecondBase
-#
+# Chronic, groupdate
 biz, business_time, ByStar, Chronic, groupdate, ice_cube, local_time, montrose, time-lord, time_diff, TSinfo, validates_timeliness, when_exe, yymmdd
-#
+# PryByebug, Byebug
 Byebyg, did_you_mean, PryByebug, RailsFootnotes, SeeingIsBelieving, Xray
 # Draper
 Draper, ShowFor
