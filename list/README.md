@@ -28,27 +28,25 @@ AWSSDKforRuby, browse-everything, Fog
 AlchemyCMS, CamaleonCMS, ComfortableMexicanSofa, LocomotiveCMS, Publify, PushType, Radiant, RefineryCMS, SpinaCMS, Storytime
 #
 Barkeep, Brakeman, Cane, Coverband, Fasterer, Flay, Flog, Flog, fukuzatsu, MetricFu, Pippi, Pronto, rails_best_practices, Reek, RuboCop, RubyCop, Rubycritic, Scientist, SimpleCov, Traceroute
-#
+# Rouge
 CodeRay, pygments.rb, Rouge
-#
+# Rubystyleguide
 Best-Ruby, fast-ruby, FundamentalRuby, Railsstyleguide, RSpecstyleguide, RubyOperators, Rubystyleguide
-#
+# EventMachine, ConcurrentRuby, Parallel
 Celluoid, ConcurrentRuby, EventMachine, forkoff, Parallel
-#
+# dotenv, Figaro, 
 Chamber, Configus, dotenv, Encoding, ENVied, Figaro, Global, RailsConfig
-#
+# ActiveSupport, Virtus, Hashie
 ActiveSupport, Addressable, FinishingMoves, Hamster, Hanami::Utils, RubyFacets, Attributes :ActiveAttr, :FastAttributes, :Virtus, Hash, :Hashie
-#
+# Countries
 Carmen, Countries, GlobalPhone, i18n_data, normalize_country
-#
+# FatFreeCRM
 FatFreeCRM
-#
+# BlockchainLite
 BlockchainLite
-#
-Dashing
-#
-Dashing-Rails
-#
+# Dashing
+Dashing, Dashing-Rails
+# Kiba
 Kiba
 #
 Chartkick, GeoPattern, LazyHighCharts, RailRoady, RailsErd, Ruby/GraphViz
@@ -60,7 +58,7 @@ connection_pool, DatabaseCleaner, Foreigner, LargehadronMigrator, LolDBA, Polo, 
 biz, business_time, ByStar, Chronic, groupdate, ice_cube, local_time, montrose, time-lord, time_diff, TSinfo, validates_timeliness, when_exe, yymmdd
 #
 Byebyg, did_you_mean, PryByebug, RailsFootnotes, SeeingIsBelieving, Xray
-#
+# Draper
 Draper, ShowFor
 #
 Backup, Blender, BOSH, Capistrano, Centurion, Chef, Depolyinator, Einhorn, Kochiku, Lita, Logstash, Mina, Puppet, Request-log-analyzer, Rubber, SSHKey, Ruby-LXC, Vagrant
