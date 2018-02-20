@@ -16,17 +16,17 @@ acl9, AccessGranted, Authority, CanCanCan, DeclarativeAuthorization, Petergate, 
 Danger, Huginn
 # caching
 ActioncachingforActionPack, Dalli, Garner, IdentityCache, Kashmir, Readthis, RecordCache, redis-store, SecondLevelCache
-#
+# reCAPTCHA
 InvisibleCaptcha, Rakismet, reCAPTCHA, Voight-Kampff
 #
 Clamp, Cocaine, Commander, GLI, Main, Rake, Slop, Thor, Trollop, TTY
 #
 AwesomePrint, Betty, colorls, formatador, Paint, Pastel, Ru, Ruby/Progressbar, TablePrint, TerminalTable, Tmuxinator
-#
+# Fog, WSSDKforRuby
 AWSSDKforRuby, browse-everything, Fog
 #
 AlchemyCMS, CamaleonCMS, ComfortableMexicanSofa, LocomotiveCMS, Publify, PushType, Radiant, RefineryCMS, SpinaCMS, Storytime
-#
+# RuboCop, Brakeman, Scientist
 Barkeep, Brakeman, Cane, Coverband, Fasterer, Flay, Flog, Flog, fukuzatsu, MetricFu, Pippi, Pronto, rails_best_practices, Reek, RuboCop, RubyCop, Rubycritic, Scientist, SimpleCov, Traceroute
 # Rouge
 CodeRay, pygments.rb, Rouge
