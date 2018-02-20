@@ -184,15 +184,15 @@ RSpec, Formatters: :Emoji-RSpec, :Fuubar, :NyanCat, Aruba, Bacon, Capybara, Cucu
 Dropbox, facy, fb_graph2, flickr, fitlab, google-api,ads-ruby, gmail, hipchat-rb, instagram-ruby-gem, itunes_store_transporter, linkedin, Octokit, Pusher, Restforce, ruby-gmail, ruby-trello, simple-slack-bot, SlackNotifier, Slackrubygem, soundcloud-ruby, t, terjira, tweetstream, twilio-ruby, twitter, wikipedia, Yt
 #
 Streamio FFMPEG, VideoTranscodeing
-#
+#gon
 auto_html, Bh, gon, PluggableJs
-#
+# Mechanize, anemone
 anemone, LinkThumbnailer, Mechanize, MetaInspector, Uption, Wombat
 #
 Camping, Cuba, Hobbit, Hanami,  Hyperloop, Padrino, Pakyow, Rack::App, Ramaze, Roda, Rails, Scorched, Sinatra, Syro, Volt
 #
 Goliath, lodine, PhusionPassenger, Puma, Rakc, Reel, Thin, ToqueBox, Unicorn
-#
+# Websocket-Rails, Slanger, AnyCable
 Websocket-Rails, AnyCable, Faye, Firehose, Slanger, REnderSync
 #
 AppSignal, Codacy, CodeClimate, deppot, Gemnasium, GitHub, GitlabCI, GitLab, Hakiri, HOundCI, HuBoard, InchCi, Nanobox, OctoLinker, Pullreview, SemaphoreCI, SideCI, TravisCI, VexorCI
