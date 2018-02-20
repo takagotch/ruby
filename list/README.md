@@ -8,13 +8,13 @@ Ahoy, Analytical, Gabba, Impressionnist, Legato, Rack::Tracker, Staccato
 ActiveModel::Serializers, Blanket, Crepe, Grape, Her, jbuilder, JSONAPI::Resources, Jsonite, Pliny, rabl, Rails::API, Roar, Spyke, VersionCake, versionist
 #
 Compass, AssetSync, Autoprefixer, Bourbon, bower-rails, Emoji, LessRails, Less, RailsAssets, Sass, Sprockets, Torba, Webpacker
-# 
+# OAuth
 Authlogic, Clearance, JWT, Knock, Monban, OmniAuth, Rodauth, shield, Sorcery, warden, OAuth :Doorkeeper, :OAuth2
-#
+# pundit,CanCanCan
 acl9, AccessGranted, Authority, CanCanCan, DeclarativeAuthorization, Petergate, Pundit
-#
+# huginn
 Danger, Huginn
-#
+# caching
 ActioncachingforActionPack, Dalli, Garner, IdentityCache, Kashmir, Readthis, RecordCache, redis-store, SecondLevelCache
 #
 InvisibleCaptcha, Rakismet, reCAPTCHA, Voight-Kampff
