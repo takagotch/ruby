@@ -100,7 +100,7 @@ qtbindings, RubyGnome2, Shoes
 HappyMapper, HTML::Pipeline, Nokogiri, Oga, Ox, ROXML
 #
 excon, Faraday, DeviceDetector, HttpClient, HTTP, httparty, Http-2, Patron, RESTClient, Savon, Sawyer, Typhoeus
-#
+# MiniMagick(RMagick), PSD.rb
 MiniMagick, Phasion, PSD.rb, RMagick, ruby-vips, Skeptick
 #
 JRuby, MRuby, Opal, Rubinius
