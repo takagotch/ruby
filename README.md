@@ -19,5 +19,6 @@ https://www.ruby-toolbox.com/
 ### gem
 https://rubygems.org/
 
-### 
+### ./list/library
+https://github.com/takagotch/ruby/tree/master/list
 
