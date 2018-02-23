@@ -108,7 +108,7 @@ JRuby, MRuby, Opal, Rubinius
 FastGettext, Globalize, i18n-tasks, i18n, r18n, Termit, Tolk, twitter-clid-rb
 #
 Clipboard, Hirb, irbtools, Looksee, Pry, rib
-#
+# Fluentd, Lograge
 Cabin, Fluentd, HttpLog, Log4r, Logging, Lograge, MongoDBLogger, Scrolls, SematicLogger, Yell
 #
 AwesomeMachineLearingwithRuby, PredictionIORubySDK, rb-libsvm, RubyDatumboxWrapper, weka
