@@ -106,13 +106,13 @@ MiniMagick, Phasion, PSD.rb, RMagick, ruby-vips, Skeptick
 JRuby, MRuby, Opal, Rubinius
 #
 FastGettext, Globalize, i18n-tasks, i18n, r18n, Termit, Tolk, twitter-clid-rb
-#
+# Pry, irb
 Clipboard, Hirb, irbtools, Looksee, Pry, rib
 # Fluentd, Lograge
 Cabin, Fluentd, HttpLog, Log4r, Logging, Lograge, MongoDBLogger, Scrolls, SematicLogger, Yell
 #
 AwesomeMachineLearingwithRuby, PredictionIORubySDK, rb-libsvm, RubyDatumboxWrapper, weka
-#
+# Redcarpet, markdown
 lramdown, Maruku, Redcarpet, word-to-markdown
 #
 dryrun, fastlane, Ruboto, RubyMotion, RubyPushNotifications, Rpush
