@@ -116,15 +116,15 @@ AwesomeMachineLearingwithRuby, PredictionIORubySDK, rb-libsvm, RubyDatumboxWrapp
 lramdown, Maruku, Redcarpet, word-to-markdown
 #
 dryrun, fastlane, Ruboto, RubyMotion, RubyPushNotifications, Rpush
-#
+# Money
 eu_central_bank, Monetize, Money
-#
+# SonicPi, play
 SonicPi, play
 #
 AwesomeNLPwithRuby, Parslet, pocketshink-ruby, PragmaticSegmenter, RubyNaturalLanguage,ProcessingResources, TExt, Treat, Treetop, WordsCounted
-#
+# SimpleNavigation
 active_link_to, BreadcrumbsonRails, Gretel, loaf, SimpleNavigation
-#
+# RubyDNS
 RubyDNS
 #
 ActiveRecord, DataMapper, Guacamole, Hanami::Model, Mongoid, MongoMapper, MongoModel, Neo4j.rb, NoBrainer, Ohm, Perpetuity, Redis-Objects, ROM, Swquel
@@ -132,7 +132,7 @@ ActiveRecord, DataMapper, Guacamole, Hanami::Model, Mongoid, MongoMapper, MongoM
 ActsAsParanoid, Audited, DestrayedAt, Espinita, marginalia, mongoid-histroy, PaperTrail, Paranoia, PremenantRecords,Import :ActiveImporter, :ActiveRecordImport, :bulk_insert, :data_miner, :ferry, Misc :ActiveRecord::Turntable, :ActiveValidators, :Enumerize, :Goldiloader, :mini_record, Multi-tenacy :ActsAsTennat, :Apartment, :Milia, Social :ActsAsCommentable, :ActsAsCommentablewithThreading, :acts_as_follower, :ActiveRecordReputaionSystem,:ActsAsTaggableOn, :ActsAsVotable, :Merit, :PublicActivity, :SimpleFeed, :Unread, Sorting :ActsAsList, :ranked-model, Tree: :ActsAs, :Ancestry, :AwesomeNestedSet, :ClosureTree, :MongoidTree
 #
 GemsL :Bundler, :RubyGems, Packages&Applications: :Berkshelf, :CocoaPods, :Foreman, :fpm, :Linuxbrew, :Homebrew, :TravelingRuby
-#
+# Kaminari
 Kaminari, order_query, will_paginate
 #
 CombinePDF, Gimli, HexaPDF, Kitabu, Pdfkit, Prawn, RGhost, Shrimp, Squid, WickedPdf, Wisepdf
@@ -200,4 +200,6 @@ AppSignal, Codacy, CodeClimate, deppot, Gemnasium, GitHub, GitlabCI, GitLab, Hak
 AwemoeRuby@LibHunt, GitHubTrending, GreenRubyNews, OpenSourceRails, RubyBookmarks, RubyDaily, RubyFlow, RubyLand, RubyRogues, RubyWeekly, TheRubyToolbox
 #
 https://github.com/sindresorhus/awesome
+
+https://qiita.com/h_digitalhearts/items/62766145f2e24fa1c246
 
