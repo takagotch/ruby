@@ -1,0 +1,27 @@
+OS X
+rbenv
+RVM
+Homebrew
+ソースからのビルド
+
+Linux/UNIX
+rbenv
+RVM
+パッケージ管理システム
+ソースからのビルド
+
+Windows
+ActiveScriptRuby
+RubyInstaller
+RailsInstaller
+
+
+----------------------------
+
+https://www.ruby-lang.org/ja/documentation/installation/#activescriptruby
+
+----------------------------
+
+
+
+
