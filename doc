@@ -4,16 +4,16 @@ RVM
 Homebrew
 ソースからのビルド
 
-Linux/UNIX
+Linux/UNIX       〇vagrant & virtualbox, docker
 rbenv
 RVM
 パッケージ管理システム
 ソースからのビルド
 
 Windows
-ActiveScriptRuby
-RubyInstaller
-RailsInstaller
+ActiveScriptRuby　× 
+RubyInstaller　　 × 
+RailsInstaller　　〇
 
 
 ----------------------------
