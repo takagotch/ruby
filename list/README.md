@@ -128,7 +128,7 @@ active_link_to, BreadcrumbsonRails, Gretel, loaf, SimpleNavigation
 RubyDNS
 #
 ActiveRecord, DataMapper, Guacamole, Hanami::Model, Mongoid, MongoMapper, MongoModel, Neo4j.rb, NoBrainer, Ohm, Perpetuity, Redis-Objects, ROM, Swquel
-#
+#　☆
 ActsAsParanoid, Audited, DestrayedAt, Espinita, marginalia, mongoid-histroy, PaperTrail, Paranoia, PremenantRecords,Import :ActiveImporter, :ActiveRecordImport, :bulk_insert, :data_miner, :ferry, Misc :ActiveRecord::Turntable, :ActiveValidators, :Enumerize, :Goldiloader, :mini_record, Multi-tenacy :ActsAsTennat, :Apartment, :Milia, Social :ActsAsCommentable, :ActsAsCommentablewithThreading, :acts_as_follower, :ActiveRecordReputaionSystem,:ActsAsTaggableOn, :ActsAsVotable, :Merit, :PublicActivity, :SimpleFeed, :Unread, Sorting :ActsAsList, :ranked-model, Tree: :ActsAs, :Ancestry, :AwesomeNestedSet, :ClosureTree, :MongoidTree
 #
 GemsL :Bundler, :RubyGems, Packages&Applications: :Berkshelf, :CocoaPods, :Foreman, :fpm, :Linuxbrew, :Homebrew, :TravelingRuby
@@ -160,7 +160,7 @@ Feednormalizer, Feedjira, feedparser, Ratom, Simplerss, Stringer
 minicron, resque-scheduler, rugus-scheduler, Whenever
 #
 minicron, resque-scheduler, rufus-scheduler, Whenever
-#
+#  ☆
 A14R, ruby-fann, Bindings: :ruby-opencv, Classifiers: :classifier-reborn, :stuff-classifier, Dataanalysis/structures: :daru, :Rgl, Numericalarrays: :NMatrix, :NArray, :mdarray, SciRuby: :statsample, :statsample-timeseries, :statsample-gml, :sidtribution, :distribution, :intergration, :minimization, :publisci, :plotrb, :rb-gsl, Specific: :BioRuby, :bloomfilter-rb, :decisiontree, Utilities: :smarter_csv, :algorithms, :jaro_winker
 #
 chewy, elasticsearch-ruby, elastics, has_scope, MongoidSearch, pg_search, ransack, Rrooga, scoped_search, SearchCop, Searchkick, Searchlogic, Sunspot, textacular, ThinkingSphinx
@@ -178,9 +178,9 @@ AASM, FinitedMachine, MicroMachine, simple_states, Statesman, transitions, Workf
 HighVoltage, Jekyll: :AwesomeJekyll, Middleman, Nanoc, Octopress, Photish, webgen
 #
 Curly, Haml, Liquid, Mustache, Slim, Tilt
-#
+#　☆
 RSpec, Formatters: :Emoji-RSpec, :Fuubar, :NyanCat, Aruba, Bacon, Capybara, Cucumber, Cutest, Howitzer, Konacha, minitest, RR, shoulda-matchers, Spinach, Spork, Test::Unit, FakeData: :Fabrication, :factory_bot, :FakePerson, :faker, :ffaker, :Forgery, :Machinist, Mock: :ActiveMocker, :DuckRails, :TestXml, :WebMock, WebDrivers: :SelemiumWebDriver, :APITaster, :Poltergeist, :Watir, Extra: :Appraisal, :Kanasack, :mutant, :ParallelTests, :power_asser, :Ruby-JMeter, :Spring, :timecop, :vcr, :Zapata
-#
+#　☆
 Dropbox, facy, fb_graph2, flickr, fitlab, google-api,ads-ruby, gmail, hipchat-rb, instagram-ruby-gem, itunes_store_transporter, linkedin, Octokit, Pusher, Restforce, ruby-gmail, ruby-trello, simple-slack-bot, SlackNotifier, Slackrubygem, soundcloud-ruby, t, terjira, tweetstream, twilio-ruby, twitter, wikipedia, Yt
 #
 Streamio FFMPEG, VideoTranscodeing
