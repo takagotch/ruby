@@ -23,13 +23,13 @@ https://rubygems.org/
 #### ./list/library
 https://github.com/takagotch/ruby/tree/master/list
 
-´´´
-´´´
+```
+```
+
+```
+```
 
 
-´´´
-´´´
+```
+```
 
-
-´´´
-´´´
